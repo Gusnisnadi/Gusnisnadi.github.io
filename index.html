@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Moh <span>Goesny</span> Isnady</a>
+        <nav>
+            <a href="#" class="active"> Beranda</a>
+            <a href="#" >Tentang</a>
+            <a href="#" >Portofolio</a>
+        </nav>
+    </header>
+    <div class="tombol-kanan">
+        <a href="#" class="tombol-kanan1"><span class="tkahover">></span></a>
+    </div>
+    <div class="tombol-kiri">
+        <a href="#" class="tombol-kiri1"><span class="tkihover"><</span></a>
+    </div>
+    <section class="home">
+        <div class="home-img">
+            <img src="gambar/foto.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1 class="awal">Hallo, saya <span>Goesny</span></h1>
+            <p>Mahasiswa Universitas Pembangunan Nasional Veteran Jakarta Semester 3 di jurusan Teknik Elektro, Memiliki kemampuan komunikasi dan analisa yang baik.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/moh-goesny-isnady-7891b829b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"><span></span></i></a>
+                <a href="https://x.com/Isndyourbae?t=RCw6loqt4Gz6B919POiCjg&s=09"><i class="fa-brands fa-twitter"><span></span></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"><span></span></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/15da3mmchM6lrXWXb0hB4niD8XIY8Wucp/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+    </section>
+    <section class="tentang">
+        <div class="container">
+            <div class="judul-tentang">
+                <div class="judul-biodata">
+                    <h2>Biodata<span></span></h2>
+                </div>
+                <div class="judul-skill">
+                    <h2>Skill</h2>
+                </div>
+            </div>
+            <div class="isi-tentang">
+                <div class="info-biodata">
+                    <ol class="list-biodata">
+                        <li>Nama : <span>Moh Goesny Isnady</span></li>
+                        <li>NIM : <span>2310314038</span></li>
+                        <li>T.T.L. : <span>Cianjur, 06 Juni 2005</span></li>                
+                        <li>Umur : <span>19</span></li>
+                        <li>Email : <span>isnadygoesny@gmail.com</span></li>
+                        <li>Alamat : <span>Bojonggede, Bogor</span></li>
+                        <li>No. HP : <span>+62877-7551-6496</span></li>
+                    </ol>
+                </div>    
+                <div class="info-skill">
+                    <div class="skill-container">
+                        <div class="list-skill">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar">
+                                <span class="skill-per">
+                                    <span class="tooltip">76%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="list-skill">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="list-skill">
+                            <span class="title">JS <i class="fab fa-js"></i></span>
+                            <div class="skill-bar">
+                                <span class="skill-per js">
+                                    <span class="tooltip">30%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="list-skill">
+                            <span class="title">Python <i class="fab fa-python"></i></span>
+                            <div class="skill-bar">
+                                <span class="skill-per python">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="list-skill">
+                            <span class="title">C/C++</span>
+                            <div class="skill-bar">
+                                <span class="skill-per c">
+                                    <span class="tooltip">45%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portofolio">
+        <div class="container">
+            <div class="judul-portofolio">
+                <h1>PORTOFOLIO</h1>
+            </div>
+            <div class="judul-project">
+                <h2>Proyek Terbaru saya<h2>
+            </div>
+            <div class="container-isi-project">
+                <div class="isi-project">
+                    <p>1. kalkulator apk <i class="fa-brands fa-android"></i></p>
+                    <div class="project-inner">
+                        <div class="gambar-project">
+                            <img class="kal1" src="gambar/kalkulator.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="isi-project">
+                    <p>2. Hangman Game <i class="fab fa-python"></i></p>
+                    <div class="project-inner">
+                        <div class="gambar-project">
+                            <img class="hangman" src="gambar/hangman game.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="popup-menu" class="popup hidden">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <div class="popup-image">
+                <img src="" alt="Selected Project" id="popup-img">
+            </div>
+            <div class="popup-info">
+                <h2 id="popup-title">Project Title</h2>
+                <p id="popup-description">Project Description</p>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
