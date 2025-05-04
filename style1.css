@@ -908,6 +908,12 @@ section{
     .info-biodata{
         margin-bottom: 20px;
     }
+    .tombol-kiri a.tombol-kiri1{
+        border: 0px;
+    }
+    .tombol-kanan a.tombol-kanan1{
+        border: 0px;
+    }
 }
 @media (max-width:995px){
     .home .home-img{
